@@ -5,9 +5,6 @@ import livereload from 'rollup-plugin-livereload';
 import { terser } from 'rollup-plugin-terser';
 import css from 'rollup-plugin-css-only';
 import cssnanoPlugin from 'cssnano';
-// import tailwindcss from 'tailwindcss';
-// import autoprefixer from 'autoprefixer';
-// import postcss from 'postcss';
 
 const production = !process.env.ROLLUP_WATCH;
 
