@@ -1,0 +1,37 @@
+{
+  "name": "svelte-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "watch:tailwind": "postcss public/tailwind.css -o public/global.css -w",
+    "build:tailwind": "cross-env NODE_ENV=production postcss public/tailwind.css -o public/global.css",
+    "build": "npm run build:tailwind && rollup -c",
+    "dev": "concurrently \"rollup -c -w\" \"npm run watch:tailwind\"",
+    "start": "sirv public --no-clear --port 3000"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^17.0.0",
+    "@rollup/plugin-node-resolve": "^11.0.0",
+    "@svicons/bootstrap": "^0.1.11",
+    "autoprefixer": "^10.4.4",
+    "concurrently": "^7.1.0",
+    "cross-env": "^7.0.3",
+    "cssnano": "^5.1.7",
+    "express": "^4.17.3",
+    "mysql": "^2.18.1",
+    "postcss": "^8.4.12",
+    "postcss-cli": "^9.1.0",
+    "rollup": "^2.3.4",
+    "rollup-plugin-css-only": "^3.1.0",
+    "rollup-plugin-livereload": "^2.0.0",
+    "rollup-plugin-svelte": "^7.0.0",
+    "rollup-plugin-terser": "^7.0.0",
+    "svelte": "^3.0.0",
+    "tailwindcss": "^3.0.24"
+  },
+  "dependencies": {
+    "html-entities": "^2.3.3",
+    "sirv-cli": "^2.0.0",
+    "svelte-spa-router": "^3.2.0"
+  }
+}
