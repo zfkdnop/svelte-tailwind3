@@ -1,40 +1,16 @@
-This repo can be used as a template for seeding basic Svelte 3 and Tailwind CSS 3 apps.
+# svelte-tailwind3
 
----
-
-*Psst — looking for a more complete solution? Check out [SvelteKit](https://kit.svelte.dev), the official framework for building web applications of all sizes, with a beautiful development experience and flexible filesystem-based routing.*
-
-*Looking for a shareable component template instead? You can [use SvelteKit for that as well](https://kit.svelte.dev/docs#packaging) or the older [sveltejs/component-template](https://github.com/sveltejs/component-template)*
-
----
-
-# svelte app
-
-This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/sveltejs/template.
-
-To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
-
-```bash
-npx degit sveltejs/template svelte-app
-cd svelte-app
-```
-
-*Note that you will need to have [Node.js](https://nodejs.org) installed.*
-
+This repo can be used as a template for seeding basic Svelte 3 apps with Tailwind CSS 3.
 
 ## Get started
 
-Install the dependencies...
-
+To develop/extend this project, don't forget to install the dependencies using:
 ```bash
-cd svelte-app
 npm install
 ```
-
-...then start [Rollup](https://rollupjs.org):
-
+To debug & troubleshoot during development, use:
 ```bash
-npm run dev
+clear;npm run dev
 ```
 
 Navigate to [localhost:8080](http://localhost:8080). You should see your app running. Edit a component file in `src`, save it, and reload the page to see your changes.
@@ -43,9 +19,20 @@ By default, the server will only respond to requests from localhost. To allow co
 
 If you're using [Visual Studio Code](https://code.visualstudio.com/) we recommend installing the official extension [Svelte for VS Code](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode). If you are using other editors you may need to install a plugin in order to get syntax highlighting and intellisense.
 
+---
+
+# svelte app
+
+This was seeded using the [Svelte](https://svelte.dev) project template at https://github.com/sveltejs/template:
+
+```bash
+npx degit sveltejs/template svelte-app
+cd svelte-app
+```
+
 ## Building and running in production mode
 
-To create an optimised version of the app:
+To create an optimised & minified version of the app:
 
 ```bash
 npm run build
