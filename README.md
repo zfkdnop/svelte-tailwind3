@@ -4,7 +4,7 @@ This repo can be used as a template for seeding basic Svelte 3 apps with Tailwin
 
 ## Get started
 
-To develop/extend this project, don't forget to install the dependencies using:
+To develop/extend this project, don't forget to install the dependencies first:
 ```bash
 npm install
 ```
@@ -13,7 +13,7 @@ To debug & troubleshoot during development, use:
 clear;npm run dev
 ```
 
-Navigate to [localhost:8080](http://localhost:8080). You should see your app running. Edit a component file in `src`, save it, and reload the page to see your changes.
+Navigate to [localhost:3000](http://localhost:3000). You should see your app running. Edit a component file in `src`, save it, and reload the page to see your changes.
 
 By default, the server will only respond to requests from localhost. To allow connections from other computers, edit the `sirv` commands in package.json to include the option `--host 0.0.0.0`.
 
@@ -23,7 +23,7 @@ If you're using [Visual Studio Code](https://code.visualstudio.com/) we recommen
 
 # svelte app
 
-This was seeded using the [Svelte](https://svelte.dev) project template at https://github.com/sveltejs/template:
+This project was seeded using the [Svelte](https://svelte.dev) project template at https://github.com/sveltejs/template:
 
 ```bash
 npx degit sveltejs/template svelte-app
