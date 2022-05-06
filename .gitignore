@@ -1,5 +1,6 @@
 /node_modules/
 /public/build/
+/public/global.css
 /src/backend/
 
 .DS_Store
